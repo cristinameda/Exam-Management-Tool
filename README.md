@@ -72,6 +72,8 @@ The system will request again the teacher and the test names and will verify if 
 
 If there are any duplicates, the program will eliminate them automatically.
 
+If the conditions are met, the test will be removed from the Test directory and moved to the TestBank directory in the appropriate subdirectory (with the teacher's name) to mark that the test is completed and verified.
+
 ### Generate a profile histogram based on one or more GIFT files
 
     node cli.js visualizeProfile <file1> <file2> ... <fileN>
